@@ -9,6 +9,13 @@
   <meta name="keywords" content="plumber Lynbrook NY, drain cleaning Nassau County, emergency plumber Lynbrook, pipe repair Nassau County, water heater installation, plumbing services Long Island, NSJR Inc. plumbing" />
   <meta name="author" content="NSJR Inc. Plumbing" />
   <meta name="robots" content="index,follow" />
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512x512.png" />
   <link rel="canonical" href="https://www.nsjrplumbingli.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="NSJR Inc. Plumbing | Expert Plumbing &amp; Drain Services" />
