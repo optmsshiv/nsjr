@@ -9,17 +9,17 @@
   <meta name="keywords" content="plumber Lynbrook NY, drain cleaning Nassau County, emergency plumber Lynbrook, pipe repair Nassau County, water heater installation, plumbing services Long Island, NSJR Inc. plumbing" />
   <meta name="author" content="NSJR Inc. Plumbing" />
   <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="https://www.mydraindr.com/" />
+  <link rel="canonical" href="https://www.nsjrplumbingli.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="NSJR Inc. Plumbing | Expert Plumbing &amp; Drain Services" />
   <meta property="og:description" content="Fast, reliable plumbing for New York. Licensed &amp; insured. 24/7 emergency service. Upfront pricing, no hidden fees." />
-  <meta property="og:url" content="https://www.mydraindr.com/" />
-  <meta property="og:image" content="https://www.mydraindr.com/images/og-image.jpg" />
+  <meta property="og:url" content="https://www.nsjrplumbingli.com/" />
+  <meta property="og:image" content="https://www.nsjrplumbingli.com/images/og-image.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="NSJR Inc. Plumbing | Expert Plumbing Services" />
   <meta name="twitter:description" content="Fast, reliable plumbing for New York. Licensed &amp; insured. 24/7 emergency service." />
-  <meta name="twitter:image" content="https://www.mydraindr.com/images/twitter-image.jpg" />
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Plumber","name":"My Drain DR","url":"https://www.mydraindr.com","telephone":"+15168879687","address":{"@type":"PostalAddress","streetAddress":"Lynbrook","addressLocality":"Lynbrook","addressRegion":"NY","postalCode":"11563","addressCountry":"US"},"openingHours":"Mo-Sa 07:00-20:00","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"624"}}</script>
+  <meta name="twitter:image" content="https://www.nsjrplumbingli.com/images/twitter-image.jpg" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Plumber","name":"NSJR Inc. Plumbing","url":"https://www.nsjrplumbingli.com","telephone":"+15168879687","address":{"@type":"PostalAddress","streetAddress":"Lynbrook","addressLocality":"Lynbrook","addressRegion":"NY","postalCode":"11563","addressCountry":"US"},"openingHours":"Mo-Sa 07:00-20:00","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"624"}}</script>
   <?php include 'components/head.php'; ?>
 </head>
 <body>
