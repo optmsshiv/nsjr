@@ -7,7 +7,7 @@
   <title>Plumbing Tips Blog | NSJR Inc. Plumbing — Lynbrook, NY</title>
   <meta name="description" content="Expert plumbing tips, DIY guides, and advice from licensed plumbers at NSJR Inc. Plumbing. Learn how to maintain your pipes, save water, and prevent costly repairs in Lynbrook, NY." />
   <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="https://www.mydraindr.com/pages/blog.php" />
+  <link rel="canonical" href="https://www.nsjrplumbingli.com/pages/blog" />
   <?php include '../components/head.php'; ?>
   <style>
     /* Blog page redesign styles */
@@ -389,7 +389,7 @@
   <section class="page-hero">
     <div class="hero-dots" aria-hidden="true"></div>
     <div class="container page-hero-inner">
-      <nav class="breadcrumb"><a href="../index.html">Home</a><i class="fa-solid fa-chevron-right"></i><span>Blog</span>
+      <nav class="breadcrumb"><a href="/">Home</a><i class="fa-solid fa-chevron-right"></i><span>Blog</span>
       </nav>
       <div class="section-label"><i class="fa-solid fa-newspaper"></i>Tips &amp; Guides</div>
       <h1>NSJR Inc. <span style="color:var(--amber);">Plumbing Blog</span></h1>

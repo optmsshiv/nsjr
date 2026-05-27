@@ -7,7 +7,7 @@
   <title>About Us | NSJR Inc. — Same-Day Plumbing Experts in Lynbrook &amp; Nassau County</title>
   <meta name="description" content="Learn about NSJR Inc. — same-day plumbing experts based in Lynbrook, NY. Serving Nassau County communities with 30+ years of experience. Call 516-887-9687." />
   <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="https://www.mydraindr.com/pages/about.php" />
+  <link rel="canonical" href="https://www.nsjrplumbingli.com/pages/about" />
   <?php include '../components/head.php'; ?>
   <style>
     /* About page extras */
@@ -153,7 +153,7 @@
   <section class="page-hero">
     <div class="hero-dots" aria-hidden="true"></div>
     <div class="container page-hero-inner">
-      <nav class="breadcrumb"><a href="../index.html">Home</a><i class="fa-solid fa-chevron-right"></i><span>About
+      <nav class="breadcrumb"><a href="/">Home</a><i class="fa-solid fa-chevron-right"></i><span>About
           Us</span></nav>
       <div class="section-label"><i class="fa-solid fa-users"></i>Our Story</div>
       <h1>Built on <span style="color:var(--amber);">Trust.</span><br>Driven by Results.</h1>

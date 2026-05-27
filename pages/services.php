@@ -6,7 +6,7 @@
   <title>Plumbing Services | NSJR Inc. Plumbing — Lynbrook &amp; Nassau County, NY</title>
   <meta name="description" content="Professional plumbing services in Lynbrook &amp; Nassau County: drain cleaning, sewer line, emergency plumbing, camera inspection. Licensed &amp; insured. Upfront pricing." />
   <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="https://www.mydraindr.com/pages/services.php" />
+  <link rel="canonical" href="https://www.nsjrplumbingli.com/pages/services" />
   <?php include '../components/head.php'; ?>
   <style>
     }
@@ -721,7 +721,7 @@
   <section class="page-hero">
     <div class="hero-dots" aria-hidden="true"></div>
     <div class="container page-hero-inner">
-      <nav class="breadcrumb"><a href="../index.html">Home</a><i
+      <nav class="breadcrumb"><a href="/">Home</a><i
           class="fa-solid fa-chevron-right"></i><span>Services</span></nav>
       <div class="section-label"><i class="fa-solid fa-toolbox"></i>All Services</div>
       <h1>Our Plumbing <span style="color:var(--amber);">Services</span></h1>
