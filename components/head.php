@@ -8,19 +8,32 @@
  *   <?php include 'components/head.php'; ?>      ← from root (index)
  */
 ?>
-  <!-- Fonts -->
+  <!-- Fonts — preconnect for speed -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Outfit:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
-    rel="stylesheet" />
+  <!-- Load fonts non-render-blocking -->
+  <link rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Outfit:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+    as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Outfit:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet" />
+  </noscript>
 
-  <!-- Font Awesome (free CDN) -->
-  <link rel="stylesheet"
+  <!-- Font Awesome — load async to avoid render-blocking -->
+  <link rel="preload"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    crossorigin="anonymous" />
+    as="style" crossorigin="anonymous"
+    onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      crossorigin="anonymous" />
+  </noscript>
 
   <!-- Main stylesheet -->
-  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="preload" href="/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="/css/style.css" /></noscript>
 
   <style>
     /* ── Floating action button ring-ripple animation ── */

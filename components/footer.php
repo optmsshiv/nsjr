@@ -93,4 +93,4 @@
   <button id="backTop" aria-label="Back to top"><i class="fa-solid fa-chevron-up"></i></button>
 
   <!-- SCRIPTS -->
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
