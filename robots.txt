@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Block private/system folders
+Disallow: /components/
+Disallow: /api/
+Disallow: /includes/
+
+# Sitemap location
+Sitemap: https://www.nsjrplumbingli.com/sitemap.xml
