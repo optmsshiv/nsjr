@@ -1,3 +1,25 @@
+# ── Enable Rewrite Engine ──
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # ── Hide .php extension ──
+  # If the request is not a file or directory
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  # Try adding .php and serve it
+  RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+  # ── Remove .php from URL (redirect if .php typed) ──
+  RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+  RewriteRule ^ /%1 [NC,L,R=301]
+
+  # ── Serve WebP images if browser supports it ──
+  RewriteCond %{HTTP_ACCEPT} image/webp
+  RewriteCond %{REQUEST_FILENAME}.webp -f
+  RewriteRule ^(.+)\.(jpe?g|png)$ $1.$2.webp [T=image/webp,E=accept:1]
+</IfModule>
+
 # ── Enable Gzip Compression ──
 <IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json image/svg+xml
@@ -40,17 +62,5 @@
   <FilesMatch "\.(woff|woff2)$">
     Header set Cache-Control "max-age=31536000, public, immutable"
   </FilesMatch>
-</IfModule>
-
-# ── Serve WebP images if browser supports it ──
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteCond %{HTTP_ACCEPT} image/webp
-  RewriteCond %{REQUEST_FILENAME}.webp -f
-  RewriteRule ^(.+)\.(jpe?g|png)$ $1.%2.webp [T=image/webp,E=accept:1]
-</IfModule>
-<IfModule mod_headers.c>
   Header append Vary Accept env=REDIRECT_accept
 </IfModule>
-
-# ── Keep existing redirects (if any) ──
