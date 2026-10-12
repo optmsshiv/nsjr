@@ -245,8 +245,8 @@
         <article class="card svc-card svc-card-red reveal">
           <div class="svc-icon ic-red"><i class="fa-solid fa-bolt"></i></div>
           <h3>24/7 Emergency Plumbing</h3>
-          <p>Plumbing disasters don't wait. We arrive in 60 minutes or less — nights, weekends, holidays — no extra
-            charges.</p><a href="pages/services.html#emergency" class="card-link">See Details <i
+          <p>Plumbing disasters don't wait. We arrive in 60 minutes or less — nights, weekends, holidays
+            .</p><a href="pages/services.html#emergency" class="card-link">See Details <i
               class="fa-solid fa-arrow-right"></i></a>
         </article>
         <article class="card svc-card svc-card-purple reveal">
