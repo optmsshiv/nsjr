@@ -265,8 +265,8 @@
                 </tr>
               </tbody>
             </table>
-            <p style="font-size:.78rem;color:var(--gray3);margin-top:12px;"><i class="fa-solid fa-info-circle"></i> No
-              extra charges for evening, weekend, or holiday calls.</p>
+            <p style="font-size:.78rem;color:var(--gray3);margin-top:12px;"><i class="fa-solid fa-info-circle"></i>
+              Available for evening, weekend, or holiday.</p>
           </div>
 
           <!-- FAQ -->
